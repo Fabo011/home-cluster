@@ -1,0 +1,12 @@
+postgresql:
+  enabled: true
+  postgresqlUsername: admin
+  postgresqlPassword: test
+  postgresqlDatabase: DevDb
+  
+image:
+  registry: docker.io
+  repository: postgres
+  tag: 16.1
+
+replicaCount: 1  # It represents how many copies, or instances, of the application should be running concurrently.

@@ -1,0 +1,9 @@
+serviceAccount:
+  create: true
+  name: home-cluster
+
+postgresql:
+  enabled: true
+  postgresqlUsername: admin
+  postgresqlPassword: test
+  postgresqlDatabase: DevDb
