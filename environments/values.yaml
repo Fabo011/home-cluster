@@ -7,3 +7,14 @@ postgresql:
   postgresqlUsername: admin
   postgresqlPassword: test
   postgresqlDatabase: DevDb
+
+nextcloud:
+  host: minikube-ip.nip.io
+  username: admin
+  password: test
+  containerPort: 80
+  service:
+    type: ClusterIP
+    port: 80
+    targetPort: 80
+  

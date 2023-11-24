@@ -1,0 +1,10 @@
+image:
+  repository: plexinc/pms-docker
+  tag: latest
+
+service:
+  type: ClusterIP # ISSUE: without port-forwarding I cant access via browser ""ClusterIP"???
+  port: 32400
+
+env:
+  PLEX_CLAIM: "claim-EA7_YDXq1xyBrm4HJAEE" # Claimed from https://www.plex.tv/claim/

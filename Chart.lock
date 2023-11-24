@@ -2,5 +2,11 @@ dependencies:
 - name: postgreschart
   repository: file://./charts/postgres
   version: 0.1.0
-digest: sha256:08453a10975b63d5a0f873c5fc7c9112639149b1eae777dc0e7497bccb40b810
-generated: "2023-11-17T16:07:04.056541+01:00"
+- name: plex
+  repository: file://./charts/plex
+  version: 0.1.0
+- name: nextcloud
+  repository: https://nextcloud.github.io/helm
+  version: 4.5.2
+digest: sha256:437809f57ad6fb34c6cac9b73c24c3270dcdd1ab3a36d86981d0a98f74895427
+generated: "2023-11-24T14:28:18.76602+01:00"
